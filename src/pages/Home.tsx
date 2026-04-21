@@ -227,7 +227,7 @@ export default function Home() {
               <div className="flex-1">
                 <p className="text-sm font-bold text-foreground mb-1">🎁 크리에이터에게 받은 코드가 있으신가요?</p>
                 <p className="text-xs text-muted-foreground mb-3">
-                  블로거/크리에이터에게 받은 코드를 아래에서 입력하면 Pro의 모든 기능(DeepL, DeepSeek 등 고급 AI 엔진 포함)을 <strong className="text-foreground">1주일간 무료</strong>로 체험할 수 있어요.
+                  이 가이드를 공유한 크리에이터가 <strong className="text-foreground">Pro 1주일 무료 체험 코드</strong>(추첨 5명)와 <strong className="text-foreground">10% 할인 코드</strong>를 제공하고 있어요. 코드를 받으셨다면 아래에서 바로 입력하세요!
                 </p>
                 <div className="flex flex-wrap items-center gap-3">
                   <a
@@ -237,10 +237,10 @@ export default function Home() {
                     onClick={() => onLinkClick("cta_click", { location: "trial_banner", type: "pro_trial" })}
                     className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-peach text-white text-xs font-semibold hover:opacity-90 transition-opacity"
                   >
-                    받은 코드로 Pro 무료 체험하기 <ExternalLink className="w-3 h-3" />
+                    받은 코드 입력하기 <ExternalLink className="w-3 h-3" />
                   </a>
                 </div>
-                <p className="text-xs text-peach font-medium mt-2">⚠️ 코드는 수량이 한정되어 있으니 빨리 입력하세요!</p>
+                <p className="text-xs text-muted-foreground mt-2">💡 코드가 없어도 괜찮아요! 기본 기능(PDF 번역, 웹페이지 이중 언어, YouTube 자막)은 <strong className="text-peach">완전 무료</strong>예요.</p>
               </div>
             </div>
           </div>
@@ -398,7 +398,7 @@ export default function Home() {
                   <li>클릭하면 상세 정보 확인 가능</li>
                 </ol>
               </div>
-              <Screenshot src="https://d2xsxph8kpxj0f.cloudfront.net/310519663402005199/VFNaN8wuaSe5mrA7yxWtac/pasted_file_FmP6JN_image_f3a7e2c1.png" alt="Connected Papers 네트워크 그래프 화면" caption="Connected Papers — 핵심 논문을 중심으로 관련 논문들이 네트워크로 연결된 모습 (클릭하면 확대)" size="lg" />
+              <Screenshot src="https://d2xsxph8kpxj0f.cloudfront.net/310519663402005199/VFNaN8wuaSe5mrA7yxWtac/screenshot-20260416-191032_81669094.webp" alt="Connected Papers 네트워크 그래프 화면" caption="Connected Papers — 핵심 논문을 중심으로 관련 논문들이 네트워크로 연결된 모습 (클릭하면 확대)" size="lg" />
               <div className="bg-lavender-light/40 rounded-lg p-4">
                 <p className="text-xs text-foreground">
                   💡 <strong>Connected Papers + Immersive Translate 조합 팁</strong>: 발견한 논문의 Abstract 페이지(arXiv, PubMed 등)를 열면,
@@ -440,7 +440,7 @@ export default function Home() {
               <p className="mb-3">
                 Immersive Translate는 <strong className="text-foreground">원문 아래에 번역을 삽입</strong>하는 방식이라, 원문과 번역을 동시에 볼 수 있어요.
               </p>
-              <Screenshot src="https://d2xsxph8kpxj0f.cloudfront.net/310519663402005199/VFNaN8wuaSe5mrA7yxWtac/pasted_file_QWCkxz_image_b5c8d3a7.png" alt="arXiv 논문 페이지에서 이중 언어 번역된 모습" caption="arXiv 논문 페이지에서 이중 언어 번역 — 원문 아래에 한국어 번역이 바로 표시돼요 (클릭하면 확대)" size="lg" />
+              <Screenshot src="https://d2xsxph8kpxj0f.cloudfront.net/310519663402005199/VFNaN8wuaSe5mrA7yxWtac/pasted_file_FmP6JN_image_5f65f008.webp" alt="arXiv 논문 페이지에서 이중 언어 번역된 모습" caption="arXiv 논문 페이지에서 이중 언어 번역 — 원문 아래에 한국어 번역이 바로 표시돼요 (클릭하면 확대)" size="lg" />
               <div className="bg-lavender-light/40 rounded-lg p-4">
                 <p className="text-xs font-semibold text-foreground mb-2">특히 유용한 사이트:</p>
                 <div className="grid grid-cols-2 gap-2 text-xs">
@@ -690,11 +690,11 @@ export default function Home() {
                 onClick={() => onLinkClick("cta_click", { location: "mid_page", type: "pro_trial" })}
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-white border border-peach/40 text-peach font-semibold text-sm hover:bg-peach-light/30 transition-colors"
               >
-                <Gift className="w-4 h-4" /> 받은 코드로 Pro 체험하기
+                <Gift className="w-4 h-4" /> 받은 코드 입력하기
               </a>
             </div>
             <p className="text-xs text-muted-foreground mt-4">
-              크리에이터에게 받은 코드가 있다면 👆 바로 입력해서 고급 AI 엔진을 체험해 보세요!
+              크리에이터에게 받은 Pro 체험 코드 또는 10% 할인 코드가 있다면 👆 바로 입력해서 체험해 보세요!
             </p>
           </div>
         </section>
@@ -737,7 +737,7 @@ export default function Home() {
                   </li>
                 </ul>
               </div>
-              <Screenshot src="https://d2xsxph8kpxj0f.cloudfront.net/310519663402005199/VFNaN8wuaSe5mrA7yxWtac/pasted_file_7kLm2R_image_a1b4c5d8.png" alt="Zotero 메인 화면" caption="Zotero 메인 화면 — 논문 목록과 태그 분류 (클릭하면 확대)" size="lg" />
+              <Screenshot src="https://d2xsxph8kpxj0f.cloudfront.net/310519663402005199/VFNaN8wuaSe5mrA7yxWtac/pasted_file_TMT5Gx_image_771e83a3.webp" alt="Zotero 메인 화면" caption="Zotero 메인 화면 — 논문 목록과 태그 분류 (클릭하면 확대)" size="lg" />
             </Expandable>
 
             <Expandable title="Zotero × Immersive Translate 연동 — 게임 체인저" icon={<Languages className="w-4 h-4 text-lavender" />} trackName="zotero_integration">
@@ -755,7 +755,7 @@ export default function Home() {
                 </ol>
               </div>
 
-              <Screenshot src="https://d2xsxph8kpxj0f.cloudfront.net/310519663402005199/VFNaN8wuaSe5mrA7yxWtac/pasted_file_3mNp5Q_image_c2d8e9f0.png" alt="Zotero에서 Immersive Translate 연동 화면" caption="Zotero × Immersive Translate 연동 — 우클릭 한 번으로 논문 번역 (클릭하면 확대)" size="lg" />
+              <Screenshot src="https://d2xsxph8kpxj0f.cloudfront.net/310519663402005199/VFNaN8wuaSe5mrA7yxWtac/pasted_file_mwdxoN_image_9ce27243.png" alt="Zotero에서 Immersive Translate 연동 화면" caption="Zotero × Immersive Translate 연동 — 우클릭 한 번으로 논문 번역 (클릭하면 확대)" size="lg" />
 
               {/* Before/After comparison */}
               <div className="rounded-lg border border-border overflow-hidden">
@@ -1072,13 +1072,13 @@ export default function Home() {
                 <span className="text-lavender">절반으로</span> 줄여보세요
               </p>
               <p className="text-sm text-muted-foreground mb-4 max-w-md mx-auto">
-                기본 기능은 완전 무료예요. 크리에이터에게 받은 코드가 있다면 아래에서 바로 <strong className="text-foreground">Pro 무료 체험</strong>을 시작하세요.
+                기본 기능은 완전 무료예요. 크리에이터에게 받은 <strong className="text-foreground">Pro 체험 코드</strong> 또는 <strong className="text-foreground">10% 할인 코드</strong>가 있다면 아래에서 바로 입력하세요.
               </p>
 
               {/* Trial code reminder */}
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-peach-light/80 border border-peach/30 text-xs font-medium text-peach mb-5">
                 <Gift className="w-3.5 h-3.5" />
-                크리에이터에게 받은 코드가 있다면 아래에서 바로 입력하세요!
+                코드가 없어도 OK! 기본 기능은 완전 무료예요 😊
               </div>
 
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
@@ -1098,7 +1098,7 @@ export default function Home() {
                   onClick={() => onLinkClick("cta_click", { location: "bottom_cta", type: "pro_trial" })}
                   className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-white border border-lavender/30 text-lavender font-semibold text-sm hover:bg-lavender-light/30 transition-colors"
                 >
-                  받은 코드로 Pro 체험하기
+                  받은 코드 입력하기
                 </a>
               </div>
 
